@@ -1,0 +1,6 @@
+framework module Pods_printtest {
+  umbrella header "Pods-printtest-umbrella.h"
+
+  export *
+  module * { export * }
+}

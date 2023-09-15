@@ -1,0 +1,12 @@
+framework module printtest {
+    // ...其他模块定义...
+    umbrella header "printtest.h"
+    export *
+    module * { export * }
+    
+    
+    explicit module CppBridge {
+        header "CppBridge.h"
+        export *
+    }
+}
